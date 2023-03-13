@@ -34,6 +34,7 @@
         android:layout_width="87dp"
         android:layout_height="48dp"
         android:layout_marginTop="236dp"
+        android:onClick="PR4"
         android:text="PR4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -111,24 +112,10 @@
         android:layout_marginEnd="36dp"
         android:onClick="PR10"
         android:text="PR10"
-        app:layout_constraintBottom_toTopOf="@+id/bt13"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/bt9"
-        app:layout_constraintTop_toBottomOf="@+id/bt7"
-        app:layout_constraintVertical_bias="0.487" />
-
-    <Button
-        android:id="@+id/bt12"
-        android:layout_width="87dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="64dp"
-        android:onClick="PR12"
-        android:text="PR12"
-        app:layout_constraintEnd_toStartOf="@+id/bt13"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/bt11"
-        app:layout_constraintTop_toBottomOf="@+id/bt9" />
+        app:layout_constraintTop_toBottomOf="@+id/bt7" />
 
     <Button
         android:id="@+id/bt11"
@@ -137,23 +124,9 @@
         android:layout_marginTop="56dp"
         android:onClick="PR11"
         android:text="PR11"
-        app:layout_constraintEnd_toStartOf="@+id/bt12"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt8" />
-
-    <Button
-        android:id="@+id/bt13"
-        android:layout_width="87dp"
-        android:layout_height="48dp"
-        android:layout_marginBottom="192dp"
-        android:onClick="PR13"
-        android:text="PR13"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/bt12" />
 
     <Button
         android:id="@+id/bt1"

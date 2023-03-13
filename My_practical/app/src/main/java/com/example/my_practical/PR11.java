@@ -20,14 +20,14 @@ public class PR11 extends AppCompatActivity {
         fg1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getSupportFragmentManager().beginTransaction().add(R.id.fragmentContainer,new frag1()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer,new frag1()).commit();
             }
         });
 
         fg2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                getSupportFragmentManager().beginTransaction().add(R.id.fragmentContainer,new frag2()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer,new frag2()).commit();
             }
         });
     }
