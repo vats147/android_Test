@@ -54,17 +54,6 @@ public class PR13 extends AppCompatActivity {
         int no2 = Integer.parseInt(editTextNo2.getText().toString());
         int result = 0;
 
-        switch (operator) {
-            case '+':
-                result = no1 + no2;
-                break;
-            case '-':
-                result = no1 - no2;
-                break;
-            case '*':
-                result = no1 * no2;
-                break;
-        }
 
         textViewResult.setText(String.valueOf(result));
         textViewResult.setVisibility(View.VISIBLE);

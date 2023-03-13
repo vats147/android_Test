@@ -58,7 +58,7 @@
         android:id="@+id/bt9"
         android:layout_width="87dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="252dp"
+        android:layout_marginBottom="256dp"
         android:onClick="PR9"
         android:text="PR9"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -118,12 +118,25 @@
         app:layout_constraintTop_toBottomOf="@+id/bt7" />
 
     <Button
+        android:id="@+id/bt12"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="48dp"
+        android:onClick="PR12"
+        android:text="PR12"
+        app:layout_constraintStart_toEndOf="@+id/bt11"
+        app:layout_constraintTop_toBottomOf="@+id/bt9" />
+
+    <Button
         android:id="@+id/bt11"
         android:layout_width="87dp"
         android:layout_height="48dp"
         android:layout_marginTop="56dp"
         android:onClick="PR11"
         android:text="PR11"
+        app:layout_constraintEnd_toStartOf="@+id/bt12"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bt8" />
