@@ -22,6 +22,7 @@ public class PR7 extends AppCompatActivity {
 
 
         spincountry = findViewById(R.id.spincourse);
+
         txtdes = findViewById(R.id.txtdesh);
 
         ArrayAdapter ad = new ArrayAdapter(this, android.R.layout.simple_list_item_1,country);
