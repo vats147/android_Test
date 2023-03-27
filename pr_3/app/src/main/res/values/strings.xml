@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">pr_3</string>
+
+
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="select_stream">Select Stream</string>
+    <string name="passing_year">Passing Year</string>
+    <string name="percentage">Percentage</string>
+    <string name="check_eligibility">Check Eligibility</string>
+    <string name="result">Result</string>
+    <string name="success_message">Congratulations %s, you are eligible for admission!</string>
+    <string name="failure_message">Sorry %s, you are not eligible for admission.</string>
+
+    <string-array name="stream_array">
+        <item>Science</item>
+        <item>Commerce</item>
+    </string-array>
+
+
+    <string name="stream_prompt">Select Stream</string>
+
+
+</resources>

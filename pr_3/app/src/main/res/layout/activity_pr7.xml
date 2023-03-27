@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Student Information"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Age" />
+
+    <Spinner
+        android:id="@+id/sp_stream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/stream_prompt"
+        android:entries="@array/stream_array" />
+
+    <EditText
+        android:id="@+id/et_passing_year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Passing Year"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/et_percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Percentage" />
+
+    <Button
+        android:id="@+id/btn_check_eligibility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Eligibility" />
+
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View details" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center" />
+
+</LinearLayout>
